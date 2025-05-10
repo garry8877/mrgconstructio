@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services | MRG Construction</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa6b;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #e8aa48;
+      color: white;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 50px 20px;
+      background-color: #ffffff;
+    }
+
+    .service {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      margin: 15px;
+      width: 320px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
+    }
+
+    .service:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .service h3 {
+      background-color: #757371;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .service p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .service ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .service ul li {
+      margin: 8px 0;
+      color: #333;
+      font-size: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #e8aa48;
+      color: white;
+      margin-top: 30px;
+    }
+
+    footer img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    footer p {
+      display: inline-block;
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .back-button {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .back-button a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid #000000;
+      border-radius: 8px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .back-button a:hover {
+      background-color: #e8aa48;
+      color: white;
+    }
+
+    @media screen and (max-width: 768px) {
+      .service {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="MRG Construction Logo" />
+    <h1>Our Services</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about_us.html">About Us</a>
+    <a href="projects_by_mrg.html">Projects</a>
+    <a href="contactus.html">Contact Us</a>
+  </nav>
+
+  <section class="services">
+    <div class="service">
+      <h3>Highway Construction 🛣️</h3>
+      <p>
+        We specialize in building durable and efficient highways, expressways, and national roadways with strict quality control and engineering excellence.
+      </p>
+      <ul>
+        <li>4-lane and 6-lane Highways</li>
+        <li>Concrete & Asphalt Road Surfacing</li>
+        <li>Flyovers, Bridges, Underpasses</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <h3>Building Construction 🏢</h3>
+      <p>
+        From residential complexes to industrial factories, MRG Construction provides reliable and cost-effective building solutions.
+      </p>
+      <ul>
+        <li>Residential & Commercial Buildings</li>
+        <li>Warehouses and Industrial Sheds</li>
+        <li>Custom Office Spaces</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <h3>Infrastructure Development 🏗️</h3>
+      <p>
+        We are actively engaged in mega infrastructure projects such as metro railways, urban flyovers, smart city development, and public facilities.
+      </p>
+      <ul>
+        <li>Smart City Projects</li>
+        <li>Public Parks, Stadiums</li>
+        <li>Bus Terminals, Parking Infrastructure</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <h3>Building Materials Supply 🧱</h3>
+      <p>
+        We provide high-grade construction materials at the best market prices, ensuring reliability and strength for any scale of project.
+      </p>
+      <ul>
+        <li>Bricks, Cement, Steel, Sand, Gravel</li>
+        <li>Ready-mix Concrete Supply</li>
+        <li>Bulk Material Transportation</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <h3>Machinery Hiring Services 🚜</h3>
+      <p>
+        Top quality construction machinery available for short and long term projects — fully maintained and operated.
+      </p>
+      <ul>
+        <li>Cranes, JCBs, Excavators</li>
+        <li>Concrete Mixers, Rollers</li>
+        <li>Road Cutting and Paving Machines</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <img src="logo.png" alt="MRG Construction" />
+    <p>&copy; 2014 MRG Construction. All rights reserved.</p>
+  </footer>
+
+  <div class="back-button">
+    <a href="home.html">← Back to Home</a>
+  </div>
+</body>
+</html>
